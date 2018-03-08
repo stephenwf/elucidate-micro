@@ -1,0 +1,28 @@
+{
+  "name": "@annotation-studio/server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "elucidate-micro": "./bin/elucidate-micro.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "2",
+    "fs-extra": "^5.0.0",
+    "get-port": "^3.2.0",
+    "koa": "^2.5.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-cors": "0.0.16",
+    "koa-json": "^2.0.2",
+    "koa-router": "^7.4.0",
+    "mkdirp-promise": "^5.0.1",
+    "tmp": "^0.0.33",
+    "uuid": "^3.2.1",
+    "yargs": "^11.0.0"
+  }
+}
